@@ -1,3 +1,17 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	  sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	  monospace;
+  }
+  
 .App {
   text-align: center;
 }
@@ -38,7 +52,57 @@
 }
 .jumbotron {
 	background-color: #FF007F;
+	border-radius: .3rem .3rem 0 0;
 	color: white;
 	font-size:60px;
-	font-family: 'Alata', sans-serif;
+	font-family: 'Pacifico', cursive;
+	margin-bottom: 0;
+	margin-top: 15px;
+	text-align: center;
+	text-shadow:1px 1px 1px #000;
 }
+.jumbotron h1 {
+	font-family: 'Pacifico', cursive;
+}
+.jumbotron h3 {
+	font-family: 'Cormorant Garamond', serif;
+	
+}
+
+body { 
+	background: black;
+	color: white;
+	font-family: 'Cormorant Garamond', serif;
+}
+table {
+	width: 100%;
+	background: white;
+	color: black;
+}
+tr {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+th {
+	background: black;
+	color:white;
+	border:none;
+}
+table button {
+	background: transparent;
+	border: none;
+	color: white;
+	font-weight: bold;
+	text-align: left;
+    width: 100%;
+}
+table button:focus {
+	outline: none;
+	
+}
+
+table button:hover {
+	background: #FF007F;
+	color: white;
+}
+
