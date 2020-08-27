@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.jumbotron {
+	background-color: #FF007F;
+	color: white;
+	font-size:60px;
+	font-family: 'Alata', sans-serif;
+}
