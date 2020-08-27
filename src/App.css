@@ -88,6 +88,9 @@ th {
 	color:white;
 	border:none;
 }
+td {
+	font-weight: bold;
+}
 table button {
 	background: transparent;
 	border: none;
